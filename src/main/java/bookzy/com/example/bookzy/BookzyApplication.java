@@ -8,4 +8,10 @@ public class BookzyApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BookzyApplication.class, args);
 	}
+
+@RequestMapping("/")
+public String hello()
+{
+return "Hello javaTpoint";
+}
 }
